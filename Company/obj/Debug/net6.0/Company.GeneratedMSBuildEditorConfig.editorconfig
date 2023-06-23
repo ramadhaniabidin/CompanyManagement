@@ -9,141 +9,141 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Company
 build_property.RootNamespace = Company
-build_property.ProjectDir = C:\Users\ramad\OneDrive\Documents\GitHub\CompanyManagement\Company\
+build_property.ProjectDir = C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ramad\OneDrive\Documents\GitHub\CompanyManagement\Company
+build_property.MSBuildProjectDirectory = C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Akun/Buat.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Akun/Buat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt1blxCdWF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Akun/Detail.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Akun/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt1blxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Akun/Hapus.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Akun/Hapus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt1blxIYXB1cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Akun/InComplete.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Akun/InComplete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt1blxJbkNvbXBsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Akun/Index.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Akun/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt1blxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Home/Error.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Home/Index.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Home/Privacy.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Kantor/Edit.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Kantor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FudG9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Kantor/Tambah.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Kantor/Tambah.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FudG9yXFRhbWJhaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/LayarAkun/Edit.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/LayarAkun/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5YXJBa3VuXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/LayarAkun/Tambah.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/LayarAkun/Tambah.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5YXJBa3VuXFRhbWJhaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Layar/CariAkun.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Layar/CariAkun.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5YXJcQ2FyaUFrdW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Layar/DaftarAkun.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Layar/DaftarAkun.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5YXJcRGFmdGFyQWt1bi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Layar/DaftarKantor.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Layar/DaftarKantor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5YXJcRGFmdGFyS2FudG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Layar/DaftarPengguna.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Layar/DaftarPengguna.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5YXJcRGFmdGFyUGVuZ2d1bmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Layar/DaftarPeran.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Layar/DaftarPeran.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5YXJcRGFmdGFyUGVyYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Login/Index.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/PenggunaKantor/Edit.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/PenggunaKantor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ2d1bmFLYW50b3JcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/PenggunaKantor/Tambah.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/PenggunaKantor/Tambah.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ2d1bmFLYW50b3JcVGFtYmFoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Pengguna/Create.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Pengguna/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ2d1bmFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Pengguna/Delete.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Pengguna/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ2d1bmFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Pengguna/Detail.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Pengguna/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ2d1bmFcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Pengguna/Edit.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Pengguna/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuZ2d1bmFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/PeranAkun/Edit.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/PeranAkun/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyYW5Ba3VuXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/PeranAkun/Tambah.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/PeranAkun/Tambah.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyYW5Ba3VuXFRhbWJhaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Peran/Edit.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Peran/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyYW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Peran/Tambah.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Peran/Tambah.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyYW5cVGFtYmFoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Shared/Error.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/_ViewImports.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/_ViewStart.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ramad/OneDrive/Documents/GitHub/CompanyManagement/Company/Views/Shared/_Layout.cshtml]
+[C:/Users/Bidin/Documents/BELAJAR/C\#/.NET/MVC/Company/Company/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-on2nwf8po3
