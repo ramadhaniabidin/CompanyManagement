@@ -1,0 +1,15 @@
+﻿@model Cari
+@{
+    ViewData["Title"] = "Cari Akun";
+}
+
+<form asp-controller="Layar" asp-action="CariAkun">
+    <div class="form-group">
+        <label asp-for="namaAkun" class="control-label">Masukkan nama akun</label>
+        <input asp-for="namaAkun" class="form-control"/>
+        <span asp-validation-for="namaAkun" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Cari Akun" class="btn btn-primary"/>
+    </div>
+</form>

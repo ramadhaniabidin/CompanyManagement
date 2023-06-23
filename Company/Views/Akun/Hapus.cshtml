@@ -1,0 +1,128 @@
+﻿@model DataTransferModel
+
+@{
+    ViewData["Title"] = "Index";
+    IEnumerable<DataTransferModel> listPeran = ViewData["ListPeran"] as IEnumerable<DataTransferModel>;
+    IEnumerable<DataTransferModel> listKantor = ViewData["ListKantor"] as IEnumerable<DataTransferModel>;
+    IEnumerable<DataTransferModel> listLayar = ViewData["Akses"] as IEnumerable<DataTransferModel>;
+    int idAkun = (int)ViewData["idAkun"];
+}
+
+<h1>Detail</h1>
+<h2>Data Pengguna</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Kode Pos</th>
+            <th>Provinsi</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.namaPengguna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.alamat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.kodePos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.provinsi)
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<h2>
+    Peran
+</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var peran in listPeran)
+        {
+            <tr>
+                <td>
+                    @peran.namaPeran
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<h2>
+    Kantor
+</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var kantor in listKantor)
+        {
+            <tr>
+                <td>
+                    @kantor.namaCabang
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<h2>Akses Layar</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var layar in listLayar)
+        {
+            <tr>
+                <td>
+                    @layar.namaLayar
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<div style="display:flex">
+    <form asp-action="Hapus" asp-controller="Akun" asp-route-idAkun="@idAkun">
+        <input type="submit" value="Hapus" class="btn btn-danger"/>
+    </form>
+
+    <a asp-action="Index" asp-controller="Akun" asp-route-id="@idAkun" class="btn btn-primary">
+        Kembali
+    </a>
+</div>
+

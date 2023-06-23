@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Pengguna>
+
+@{
+    ViewData["Title"] = "Daftar Pengguna";
+    int idAkun = (int)ViewData["idAkun"];
+}
+
+<h1>Daftar Pengguna</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.namaPengguna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.alamat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.kodePos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.provinsi)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.namaPengguna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.alamat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.kodePos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.provinsi)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@*<form>
+    <input type="button" value="Kembali" onclick="history.back()" class="btn btn-primary"/>
+</form>*@
+
+<a asp-action="Detail" asp-controller="Akun" asp-route-idAkun="@idAkun" class="btn btn-primary">
+    Kembali
+</a>

@@ -1,0 +1,20 @@
+﻿.search-select-box{
+    max-width: 400px;
+    margin: 80px;
+}
+
+.search-select-box select{
+    width: 100%;
+}
+
+.search-select-box button{
+    background-color: #080342 !important;
+    padding: 15px 25px;
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.bootstrap-select>.dropdown-toggle{
+    border: 1px solid;
+    background-color: #fff;
+}

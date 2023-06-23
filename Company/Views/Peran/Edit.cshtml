@@ -1,0 +1,21 @@
+﻿@model Peran
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="namaPeran" class="control-label"></label>
+                <input asp-for="namaPeran" class="form-control" />
+                <span asp-validation-for="namaPeran" class="text-danger"></span>
+            </div>
+            <input type="hidden" name="idAkun" value="@ViewData["idAkun"]"/>
+            <div class="form-group">
+                <input type="submit" value="Simpan" class="btn btn-primary"/>                    
+            </div>
+        </form>
+    </div>
+</div>

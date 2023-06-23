@@ -1,0 +1,43 @@
+﻿@model Pengguna
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Pengguna</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="namaPengguna" class="control-label"></label>
+                <input asp-for="namaPengguna" class="form-control" />
+                <span asp-validation-for="namaPengguna" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="alamat" class="control-label"></label>
+                <input asp-for="alamat" class="form-control" />
+                <span asp-validation-for="alamat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="kodePos" class="control-label"></label>
+                <input asp-for="kodePos" class="form-control" />
+                <span asp-validation-for="kodePos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="provinsi" class="control-label"></label>
+                <input asp-for="provinsi" class="form-control" />
+                <span asp-validation-for="provinsi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,143 @@
+﻿@model DataTransferModel
+
+@{
+    ViewData["Title"] = "Index";
+    IEnumerable<Peran> listPeran = ViewData["ListPeran"] as IEnumerable<Peran>;
+    IEnumerable<Kantor> listKantor = ViewData["ListKantor"] as IEnumerable<Kantor>;
+    IEnumerable<Layar> listLayar = ViewData["Akses"] as IEnumerable<Layar>;
+}
+
+<h1>Anda Yakin Ingin Menghapus?</h1>
+<h2>Data Pengguna</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Kode Pos</th>
+            <th>Provinsi</th>
+            @*<th>Peran</th>*@
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.namaPengguna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.alamat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.kodePos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.provinsi)
+            </td>
+        </tr>
+    </tbody>
+</table>
+@*<a asp-action="Edit" asp-controller="Pengguna" asp-route-id="@Model.id" class="btn btn-primary">
+    Edit
+</a>*@
+<br />
+<br />
+<h2>
+    Peran
+</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var peran in listPeran)
+        {
+            <tr>
+                <td>
+                    @peran.namaPeran
+                </td>
+                <td>
+                    @*<a asp-action="Edit" asp-controller="PeranPengguna" asp-route-id="@peran.id" class="btn btn-primary">Edit</a>*@
+@*                    <form asp-action="Hapus" asp-controller="PeranPengguna" asp-route-id="@peran.id">
+                        <input type="submit" value="Hapus" class="btn btn-danger">
+                    </form>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@*<a asp-action="Tambah" asp-controller="PeranPengguna" asp-route-id="@Model.id" class="btn btn-primary">
+    Tambah Peran
+</a>*@
+<br />
+<h2>
+    Kantor
+</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var kantor in listKantor)
+        {
+            <tr>
+                <td>
+                    @kantor.namaCabang
+                </td>
+                <td>
+                    @*<a asp-action="Edit" asp-controller="PenggunaKantor" asp-route-id="@kantor.id" class="btn btn-primary">Edit</a>*@
+@*                    <form asp-action="Hapus" asp-controller="PenggunaKantor" asp-route-id="@kantor.id">
+                        <input type="submit" value="Hapus" class="btn btn-danger">
+                    </form>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<h2>Akses Layar</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var layar in listLayar)
+        {
+            <tr>
+                <td>
+                    @layar.namaLayar
+                </td>
+                <td>
+@*                    <a asp-action="Edit" asp-controller="LayarAkun" asp-route-id="@layar.id" class="btn btn-primary">Edit</a>
+                    <form asp-action="Hapus" asp-controller="LayarAkun" asp-route-id="@layar.id">
+                        <input type="submit" value="Hapus" class="btn btn-danger">
+                    </form>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form asp-action="Delete" asp-controller="Pengguna" asp-route-id="@Model.idAkun">
+    <input type="submit" value="Hapus" class="btn btn-danger"/>
+</form>
+@*<a asp-action="Tambah" asp-controller="PenggunaKantor" asp-route-id="@Model.id" class="btn btn-primary">
+    Tambah Kantor
+</a>*@
+
+@*<br />
+<br />
+<a asp-action="DaftarAkun" asp-controller="Akun" class="btn btn-primary">
+    Ke Daftar Akun
+</a>*@

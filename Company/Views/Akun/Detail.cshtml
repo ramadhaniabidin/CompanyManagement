@@ -1,0 +1,166 @@
+﻿@model DataTransferModel
+
+@{
+    ViewData["Title"] = "Detail Akun";
+    IEnumerable<DataTransferModel> listPeran = ViewData["ListPeran"] as IEnumerable<DataTransferModel>;
+    IEnumerable<DataTransferModel> listKantor = ViewData["ListKantor"] as IEnumerable<DataTransferModel>;
+    IEnumerable<DataTransferModel> listLayar = ViewData["Akses"] as IEnumerable<DataTransferModel>;
+}
+
+<h1>Detail</h1>
+<h2>Data Pengguna</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Kode Pos</th>
+            <th>Provinsi</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.namaPengguna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.alamat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.kodePos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.provinsi)
+            </td>
+        </tr>
+    </tbody>
+</table>
+<a asp-action="Edit" asp-controller="Pengguna" asp-route-id="@Model.idPengguna" class="btn btn-primary">
+    Edit
+</a>
+<br />
+<br />
+<br />
+<br />
+
+
+<h2>
+    Peran
+</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var peran in listPeran)
+        {
+            <tr>
+                <td>
+                    @peran.namaPeran
+                </td>
+                <td style="display:flex">
+                    <a asp-action="Edit" asp-controller="PeranAkun" 
+                    asp-route-id="@peran.id"
+                    class="btn btn-primary">
+                        Edit
+                    </a>
+                    <form asp-action="Hapus" asp-controller="PeranAkun" asp-route-id="@peran?.id">
+                        <input type="submit" value="Hapus" class="btn btn-danger">
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Tambah" asp-controller="PeranAkun" asp-route-idAkun="@Model.idAkun" class="btn btn-primary">
+    Tambah Peran
+</a>
+<br />
+<br />
+<br />
+<br />
+
+
+<h2>
+    Kantor
+</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var kantor in listKantor)
+        {
+            <tr>
+                <td>
+                    @kantor.namaCabang
+                </td>
+                <td style="display:flex">
+                    <a asp-action="Edit" asp-controller="PenggunaKantor" asp-route-id="@kantor.id" class="btn btn-primary">Edit</a>
+                    <form asp-action="Hapus" asp-controller="PenggunaKantor" asp-route-id="@kantor.id">
+                        <input type="submit" value="Hapus" class="btn btn-danger">
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Tambah" asp-controller="PenggunaKantor" asp-route-idPengguna="@Model.idPengguna" class="btn btn-primary">
+    Tambah Kantor
+</a>
+<br />
+<br />
+<br />
+<br />
+
+
+<h2>Akses Layar</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var layar in listLayar)
+        {
+            <tr>
+                <td>
+                    <a asp-action="@layar.namaLayar" asp-controller="Layar" asp-route-idAkun="@layar.idAkun" class="text-black">
+                        @layar.namaLayar
+                    </a>
+                </td>
+                <td style="display:flex">
+                    <a asp-action="Edit" asp-controller="LayarAkun" asp-route-id="@layar.id" class="btn btn-primary">Edit</a>
+                    <form asp-action="Hapus" asp-controller="LayarAkun" asp-route-id="@layar.id">
+                        <input type="submit" value="Hapus" class="btn btn-danger">
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Tambah" asp-controller="LayarAkun" asp-route-idAkun="@Model.idAkun" class="btn btn-primary">
+    Tambahkan Akses
+</a>
+
+<br />
+<br />
+<br />
+<br />
+
+
+
+<a asp-action="Index" asp-controller="Akun" asp-route-id="@Model.idAkun" class="btn btn-primary">
+    Kembali
+</a>

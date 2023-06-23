@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Akun>
+
+@{
+    ViewData["Title"] = "Daftar Akun";
+    int idAkun = (int)ViewData["idAkun"];
+}
+
+<h1>Daftar Akun</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.namaAkun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tanggalDaftar)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.namaAkun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tanggalDaftar)
+            </td>
+            <td>
+                <a asp-action="Detail" asp-controller="Akun" asp-route-idAkun="@item?.id" class="btn btn-primary">
+                    Detail
+                </a>
+                <a asp-action="Hapus" asp-controller="Akun" asp-route-idAkun="@item?.id" class="btn btn-danger">
+                    Hapus
+                </a>
+@*                <a href="@Url.Action("Detail", "Akun", new{item.id})" class="btn btn-primary">
+                    Detail
+                </a>*@
+                @*<a asp-action="Delete" asp-controller="Akun" asp-route-id="@item?.idAkun" class="btn btn-danger">Hapus</a>*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@if(idAkun != 0)
+{
+    <a asp-action="Detail" asp-controller="Akun" asp-route-idAkun="@idAkun" class="btn btn-primary">
+        Kembali
+    </a>
+}
+else
+{
+    <form>
+        <input type="button" value="Kembali" onclick="history.back()" class="btn btn-primary">
+    </form>
+}
+
+

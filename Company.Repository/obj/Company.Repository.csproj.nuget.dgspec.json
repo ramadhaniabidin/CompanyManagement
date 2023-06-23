@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repository\\Company.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj",
+        "projectName": "Company.Core",
+        "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj",
+        "packagesPath": "C:\\Users\\Bidin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bidin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Database\\Company.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Database\\Company.Database.csproj",
+        "projectName": "Company.Database",
+        "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Database\\Company.Database.csproj",
+        "packagesPath": "C:\\Users\\Bidin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bidin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj": {
+                "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repositories.Interface\\Company.Repositories.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repositories.Interface\\Company.Repositories.Interface.csproj",
+        "projectName": "Company.Repositories.Interface",
+        "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repositories.Interface\\Company.Repositories.Interface.csproj",
+        "packagesPath": "C:\\Users\\Bidin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repositories.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bidin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj": {
+                "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repository\\Company.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repository\\Company.Repository.csproj",
+        "projectName": "Company.Repository",
+        "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repository\\Company.Repository.csproj",
+        "packagesPath": "C:\\Users\\Bidin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bidin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj": {
+                "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Core\\Company.Core.csproj"
+              },
+              "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Database\\Company.Database.csproj": {
+                "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Database\\Company.Database.csproj"
+              },
+              "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repositories.Interface\\Company.Repositories.Interface.csproj": {
+                "projectPath": "C:\\Users\\Bidin\\Documents\\BELAJAR\\C#\\.NET\\MVC\\Company\\Company.Repositories.Interface\\Company.Repositories.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

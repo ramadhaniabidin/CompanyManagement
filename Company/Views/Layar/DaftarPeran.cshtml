@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Peran>
+
+@{
+    ViewData["Title"] = "Daftar Peran";
+    int idAkun = (int)ViewData["idAkun"];
+}
+
+<h1>Daftar Peran</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.namaPeran)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.namaPeran)
+            </td>
+            <td style="display:flex">
+                <a 
+                 asp-action="Edit" asp-controller="Peran" asp-route-id="@item.id" 
+                 asp-route-idAkun="@idAkun" class="btn btn-primary">
+                    Edit
+                </a>
+
+                <form asp-action="Hapus" asp-controller="Peran" asp-route-id="@item.id" asp-route-idAkun="@idAkun">
+                    <input type="submit" value="Hapus" class="btn btn-danger">
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<a asp-action="Tambah" asp-controller="Peran" asp-route-idAkun="@idAkun" class="btn btn-primary">
+    Tambah Peran
+</a>
+
+<a asp-action="Detail" asp-controller="Akun" asp-route-idAkun="@idAkun" class="btn btn-primary">
+    Kembali
+</a>
+

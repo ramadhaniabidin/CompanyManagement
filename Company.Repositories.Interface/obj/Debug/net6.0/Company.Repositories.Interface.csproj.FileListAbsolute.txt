@@ -1,0 +1,15 @@
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\bin\Debug\net6.0\Company.Repositories.Interface.deps.json
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\bin\Debug\net6.0\Company.Repositories.Interface.dll
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\bin\Debug\net6.0\Company.Repositories.Interface.pdb
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\bin\Debug\net6.0\Company.Core.dll
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\bin\Debug\net6.0\Company.Core.pdb
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.csproj.AssemblyReference.cache
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.AssemblyInfoInputs.cache
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.AssemblyInfo.cs
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.csproj.CopyComplete
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.dll
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\refint\Company.Repositories.Interface.dll
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\Company.Repositories.Interface.pdb
+C:\Users\Bidin\Documents\BELAJAR\C#\.NET\MVC\Company\Company.Repositories.Interface\obj\Debug\net6.0\ref\Company.Repositories.Interface.dll

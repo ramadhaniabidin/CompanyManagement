@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Core\Company.Core.csproj" />
+    <ProjectReference Include="..\Company.Database\Company.Database.csproj" />
+    <ProjectReference Include="..\Company.Repositories.Interface\Company.Repositories.Interface.csproj" />
+    <ProjectReference Include="..\Company.Repository\Company.Repository.csproj" />
+    <ProjectReference Include="..\Company.Service.Interface\Company.Service.Interface.csproj" />
+    <ProjectReference Include="..\Company.Service\Company.Service.csproj" />
+  </ItemGroup>
+
+</Project>

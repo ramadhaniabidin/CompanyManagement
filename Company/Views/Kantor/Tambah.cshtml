@@ -1,0 +1,22 @@
+﻿@model Kantor
+@{
+    ViewData["Title"] = "Tambah Kantor";
+    int idAkun = (int)ViewData["idAkun"];
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Tambah">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="namaCabang" class="control-label">Masukkan Nama Cabang</label>
+                <input asp-for="namaCabang" class="form-control"/>
+                <span asp-validation-for="namaCabang" class="text-danger"></span>
+            </div>
+            <input type="hidden" name="idAkun" value="@idAkun"/>
+            <div class="form-group">
+                <input type="submit" value="Tambah" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

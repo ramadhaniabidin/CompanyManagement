@@ -1,0 +1,76 @@
+﻿@model DataTransferModel
+@{
+    ViewData["Title"] = "Detail";
+    IEnumerable<Peran> listPeran = ViewData["ListPeran"] as IEnumerable<Peran>;
+    IEnumerable<Kantor> listKantor = ViewData["ListKantor"] as IEnumerable<Kantor>;
+}
+
+<h1>Detail</h1>
+<h2>Data Diri</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Kode Pos</th>
+            <th>Provinsi</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+
+<h2>Peran</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var peran in listPeran)
+        {
+            <tr>
+                <td>
+                    @peran.namaPeran
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<h2>Kantor</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @foreach(var kantor in listKantor)
+                {
+                    @kantor.namaCabang
+                }
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "Pengguna", new{Model.id})">
+    <button class="btn btn-primary">
+        Lengkapi Data
+    </button>
+</a>

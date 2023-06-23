@@ -1,0 +1,52 @@
+﻿@model Akun
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Halo @Model.namaAkun</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.namaAkun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tanggalDaftar)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.id)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.namaAkun)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.password)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.tanggalDaftar)
+            </td>
+            <td>
+                <a asp-controller="Akun" asp-action="Detail" asp-route-idAkun="@Model?.id">
+                    <input type="submit" class="btn btn-primary" value="Detail"/>
+                </a>
+                <a asp-controller="Akun" asp-action="Hapus" asp-route-idAkun="@Model?.id">
+                    <input type="submit" class="btn btn-danger" value="Hapus"/>
+                </a>
+                
+            </td>
+        </tr>        
+    </tbody>
+</table>
